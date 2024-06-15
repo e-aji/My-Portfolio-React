@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PortfolioList from "../PortfolioList";
-import data from "../../data/portfolio";
+import data from "../data/portfolio.json";
 
 export default function PortfolioPage() {
 

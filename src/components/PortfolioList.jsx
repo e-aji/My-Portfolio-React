@@ -1,7 +1,7 @@
-import { useState } from "react";
-import PortfolioPage from "./pages/PortfolioPage";
+// import { useState } from "react";
+import PortfolioItem from "./PortfolioItem";
 
-export default functiion PortfolioList ({ portfolio, onFilter }) {
+export default function PortfolioList ({ portfolio, onFilter }) {
 
     return (
         <div className=""> 
@@ -20,7 +20,7 @@ export default functiion PortfolioList ({ portfolio, onFilter }) {
 
             {
                 portfolio.map((item, index) => {
-                    return (<PortfolioItem item={item} />)
+                    return (<PortfolioItem key= {index} item={item} />)
                 })
             }
         </div>
