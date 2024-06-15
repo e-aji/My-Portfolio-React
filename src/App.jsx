@@ -2,10 +2,10 @@
 
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage'; 
-import PortfolioPage from './components/PortfolioPage';
-import ContactPage from './components/ContactPage';
+import HomePage from './components/pages/HomePage';
+import AboutPage from './components/pages/AboutPage'; 
+import PortfolioPage from './components/pages/PortfolioPage';
+import ContactPage from './components/pages/ContactPage';
 
 
 function App() {
