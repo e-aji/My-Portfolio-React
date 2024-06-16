@@ -7,7 +7,6 @@ import './index.css';
 
 
 import App from './App';
-// import HomePage from './pages/HomePage';
 import AboutPage from './components/pages/AboutPage.jsx';
 import PortfolioPage from './components/pages/PortfolioPage.jsx';
 import ContactPage from './components/pages/ContactPage.jsx';
@@ -20,10 +19,7 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      // {
-      //   index: true,
-      //   element: <HomePage />,
-      // },
+    
       {
         path: 'portfolio',
         element: <PortfolioPage />,

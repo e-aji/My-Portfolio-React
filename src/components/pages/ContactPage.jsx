@@ -28,6 +28,8 @@ export default function ContactPage() {
 
     return (
         <div className="container text-center">
+
+        <h1>Get in touch</h1>
       
         <form onSubmit={handleFormSubmit}>
             <div className="form">

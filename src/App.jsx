@@ -2,7 +2,6 @@
 
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
-import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage'; 
 import PortfolioPage from './components/pages/PortfolioPage';
 import ContactPage from './components/pages/ContactPage';
@@ -13,7 +12,6 @@ function App() {
   return (
     <main>
       <Nav />
-      <HomePage />
       <AboutPage />
       <PortfolioPage/>
       <ContactPage />
