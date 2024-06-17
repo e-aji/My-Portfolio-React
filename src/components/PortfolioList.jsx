@@ -4,8 +4,8 @@ import PortfolioItem from "./PortfolioItem";
 export default function PortfolioList ({ portfolio, onFilter }) {
 
     return (
-        <div className=""> 
-            <div className="">
+        <div> 
+            <div>
                 <select onChange={onFilter}>
 
                     <option value="">All</option>
@@ -19,8 +19,8 @@ export default function PortfolioList ({ portfolio, onFilter }) {
             </div>
 
             {
-                portfolio.map((item, index) => {
-                    return (<PortfolioItem key= {index} item={item} />)
+                portfolio.map((item) => {
+                    return (<PortfolioItem key= {item.id} item={item} />)
                 })
             }
         </div>

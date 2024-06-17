@@ -14,7 +14,7 @@ export default function PortfolioPage() {
             setPortfolio(data);
         }else {
             const filteredPortfolio = data.filter((item) => 
-                item.tags.includes(filter)
+                item.tags.some(tag => tag.toLowerCase().includes(filter))
         );
             setPortfolio(filteredPortfolio);
         }

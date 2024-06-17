@@ -15,7 +15,6 @@ function App() {
       <AboutPage />
       <PortfolioPage/>
       <ContactPage />
-
       <Outlet />
     </main>
   );

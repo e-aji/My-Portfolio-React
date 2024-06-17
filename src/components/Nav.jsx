@@ -9,6 +9,8 @@ export default function Nav() {
       <div className="logo">Esther Ajiboye</div>
 
       <Navbar
+
+      
         links={[
           <Link key={1} className="nav-link text-light" to="/about">
             About Us
